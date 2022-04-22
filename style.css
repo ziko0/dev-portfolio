@@ -1,0 +1,305 @@
+:root{
+    --gray-1: #4F4F4F;
+    --gray-3: #828282;
+    --gray-4: #333333;
+}   
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 15px 15px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right{
+    width: 90%;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+
+/* profile */
+
+.profile{
+    width: 413px;
+    height: 592px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 0 15px;
+    border-radius: 12px;
+}
+
+.profile-img{
+    width: 366px;
+    height: 358px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* profile text */
+.name-position{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--gray-1);
+}
+
+.postion{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--gray-3);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.mail{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about{
+    width: 332px;
+    height: 69px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--gray-3);
+}
+
+/* experience */
+
+.experiences{
+    width: 413px;
+    height: 690px;
+}
+
+.experiences-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+.brand-logo{
+    width: 84px;
+    height: 84px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.addidas-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.about-project{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--gray-3);
+}
+
+.pos{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.project-description{
+    width: 273px;
+    height: 79px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: var(--gray-3);
+}
+
+.date-pos{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* hobbie */
+
+.hobbies{
+    width: 413px;
+    height: 836px;
+ 
+}
+
+.hobbies-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+
+.hobbies .title{
+    font-weight: 500;
+    font-weight: 24px;
+}
+/* product img */
+.product-img{
+    width: 369px;
+    height: 139px;
+    object-fit: cover;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 50px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-name{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--gray-4);
+}
+
+.product-description{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray-3);
+}
+
+/* right side */
+
+.skills-wrapper{
+    display: flex;
+    gap: 50px;
+}
+
+.front-end{
+    width: 415px;
+    height: 303px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.frontend-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--gray-1);
+    text-transform: uppercase;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--gray-1);
+}
+
+.progress{
+    display: block;
+    width: 236px;
+    height: 9px;
+    background-color: var(--gray-3);
+}
+
+/* design */
+
+.designe{
+    width: 315px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+}
+
+.designe-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photoshop{
+    width: 150px;
+}
